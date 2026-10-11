@@ -24,3 +24,9 @@ O estudo diferencia a liberação da interface da autorização de operações n
 - Validação de regras de negócio no servidor.
 
 Os exemplos públicos são anonimizados. Reconstruções visuais são identificadas como simulações e não substituem evidências originais.
+
+## Documentário histórico
+
+### Afinal, a esquerda governou o Brasil por mais tempo que a direita?
+
+[Assistir ou baixar o vídeo (MP4, 1080 × 1920)](videos/vizinho-publico-documentario.mp4)
