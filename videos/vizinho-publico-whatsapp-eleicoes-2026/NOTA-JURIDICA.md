@@ -1,0 +1,3 @@
+# Nota de enquadramento jurídico
+
+Este episódio descreve o andamento processual até 12/10/2026, sem afirmar a validade ou invalidade das ordens posteriores. O documento primário acessível é a decisão inicial de Cueva de 10/10. As ordens atribuídas a Nunes Marques e Cueva em 11/10, e o despacho noticiado em 12/10, são apresentados com atribuição à Agência Brasil/G1 porque os respectivos textos integrais não puderam ser obtidos na consulta ao PJe/Mural. O art. 38 da Resolução TSE nº 23.610/2019 fornece contexto sobre intervenção mínima, liberdade de expressão e decisão fundamentada para remoção de conteúdo; não se usa esse dispositivo como conclusão automática sobre suspensão de um canal inteiro. Revalidar o processo, as decisões e o texto normativo na data de publicação.
