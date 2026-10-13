@@ -1,0 +1,62 @@
+{
+  "capa-instagram.jpg": {
+    "bytes": 206068,
+    "sha256": "fc5317b3ec2be2deeeca1c9ddc7e58073837e3ae23e350ca4445e228c8956c8c"
+  },
+  "README.md": {
+    "bytes": 811,
+    "sha256": "7d706390acaca3cc2c60bb8966b68bf584fc54d46fcaa01eeaa98b2fced755ba"
+  },
+  "verificacao-midia.json": {
+    "bytes": 636,
+    "sha256": "6429bbe8d9b8a8460d2d7623053efb5f2bd2a3063a1683df0780c307dca4e341"
+  },
+  "quadros-video-completo.jpg": {
+    "bytes": 421839,
+    "sha256": "e716f957f3c59b933c30681b823c9847b2969c857eaf2d4b1109b20b93fdb57d"
+  },
+  "AUDITORIA-INDEPENDENTE.md": {
+    "bytes": 3272,
+    "sha256": "e43acb5e1960b4ad4fd46e23cdaf02eb4503a6a2e576700bf0c74ff47cbaf1b2"
+  },
+  "vizinho-publico-impostos-revisado-v8.mp4": {
+    "bytes": 22938007,
+    "sha256": "ce91ac9be9f031980625e7145b468747ef0c6e66b26834c936d7ef3f145c4394"
+  },
+  "quadros-cena11.jpg": {
+    "bytes": 164429,
+    "sha256": "491d04ea66bce62b1c2e11474538f46e1551552d57db63b5898b77b503209ebe"
+  },
+  "LEGENDA-INSTAGRAM.md": {
+    "bytes": 2059,
+    "sha256": "4ef30d8cb457b4df8dae6f03543036f1816d47a977da9d0187830bfc0dc4810f"
+  },
+  "trilha-instrumental.mp3": {
+    "bytes": 4305644,
+    "sha256": "d7185aeeb213fb80201bdcb2861a75ea35ce0a9091723f43c1b50033be8ecb0b"
+  },
+  "CREDITOS-E-LICENCAS.md": {
+    "bytes": 2928,
+    "sha256": "8a9dad93e746e9da55741cbd5a53995830efbe8842b454fa8e960163cd45fbb9"
+  },
+  "projeto-editavel-impostos-v8.zip": {
+    "bytes": 77405149,
+    "sha256": "72293decfaaadd319264ecd63a5fc2d48ba4f27ad2981b7628e281c2414b7599"
+  },
+  "ALTERACOES-V8.md": {
+    "bytes": 2583,
+    "sha256": "420440a98b9d6a474f736609c78554074a4ffa222117e237833e494627baae6c"
+  },
+  "STORYBOARD.md": {
+    "bytes": 8075,
+    "sha256": "5256421e150bb372424ab62f8867af4f57ab13964aefdbada62b45c2e7d9c395"
+  },
+  "FACTS.md": {
+    "bytes": 8656,
+    "sha256": "86ef6827ad5179c9f436526236861f1cf501aff3fcd00622679f9d0e99a5b8bd"
+  },
+  "ROTEIRO.md": {
+    "bytes": 4031,
+    "sha256": "09fd6092f2416083ae789673f18521a52d5505d958744ffb0bfd15cf89f394f3"
+  }
+}
