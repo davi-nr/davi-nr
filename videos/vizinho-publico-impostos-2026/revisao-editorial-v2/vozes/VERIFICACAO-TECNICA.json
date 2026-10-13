@@ -1,0 +1,26 @@
+[
+  {
+    "option": "A",
+    "duration": 20.688875,
+    "decode_exit": 0,
+    "silences_over_350ms": [
+      "0.504739"
+    ]
+  },
+  {
+    "option": "B",
+    "duration": 19.095438,
+    "decode_exit": 0,
+    "silences_over_350ms": [
+      "0.520726"
+    ]
+  },
+  {
+    "option": "C",
+    "duration": 18.990938,
+    "decode_exit": 0,
+    "silences_over_350ms": [
+      "0.449546"
+    ]
+  }
+]

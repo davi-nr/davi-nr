@@ -1,0 +1,7 @@
+# Alternativas de narração para avaliação
+
+Três tomadas reais e contínuas, com a voz oficial, velocidade 1,0 e sem lacunas adicionadas entre frases. Estas alternativas não têm aprovação editorial automática.
+
+A decodificação e os silêncios foram medidos. Entonação e naturalidade não foram avaliadas por escuta humana neste ambiente. A escolha editorial permanece com o usuário.
+
+O vídeo está em reconstrução sob direção do subagente HyperFrames; os episódios e renders anteriores estão preservados.
