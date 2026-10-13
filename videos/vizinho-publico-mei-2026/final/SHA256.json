@@ -1,0 +1,50 @@
+{
+  "AUDITORIA.md": {
+    "bytes": 4719,
+    "sha256": "1f1aaf58364108fb07e732291a4e2c131e72ab91ecb7aeacca640a477324eb39"
+  },
+  "CREDITOS-E-LICENCAS.md": {
+    "bytes": 1127,
+    "sha256": "a109c816041e4c5feee40b8d8856bf575472567b4ff6b3ba5680fa25854ae78a"
+  },
+  "FACTS.md": {
+    "bytes": 7890,
+    "sha256": "732b11b9038dc22e550736a691c5006169469cac989289c0d1914518f4dceebd"
+  },
+  "LEGENDA-INSTAGRAM.md": {
+    "bytes": 1564,
+    "sha256": "f84c2bf820cb16d41a1295190542e7c7e1f0b1d365e9c4a7d5a9ad2857c0f151"
+  },
+  "README.md": {
+    "bytes": 916,
+    "sha256": "af22450ad09d83de4e5e7a220ada178c22f9b3288593b4775a4a95ec7eba5ac8"
+  },
+  "ROTEIRO.md": {
+    "bytes": 3266,
+    "sha256": "c8006b535e7f5fa27bb4b60c069d7bb51a3c36d1a2ad5e62d0734c90a6076e27"
+  },
+  "STORYBOARD.md": {
+    "bytes": 2884,
+    "sha256": "da5a77fea43aecfa2dc60604d9442c3ee6f9ff8eb01276e5e3e766cef90666a6"
+  },
+  "capa-instagram.png": {
+    "bytes": 2865391,
+    "sha256": "f8d5e7a16bab5ce49ff1a9596cd97c28d2eb5252d1e5aff8dcd038f346fd35a3"
+  },
+  "legendas.srt": {
+    "bytes": 4480,
+    "sha256": "26bec13058374c50bba85b5dd4d206f068d79a2a89029d6089f21364645127c5"
+  },
+  "projeto-editavel-mei-2026.zip": {
+    "bytes": 28415517,
+    "sha256": "b3064438f692c681c6ec120615caa9044cb5ef1db0db1aa822879526f5ee8e85"
+  },
+  "trilha-instrumental.mp3": {
+    "bytes": 3990508,
+    "sha256": "d5ca89c1ba015d933992886957c8558e7b36e6b2618c881292fbcf12efbc1bf3"
+  },
+  "vizinho-publico-mei-2026.mp4": {
+    "bytes": 9484938,
+    "sha256": "66d42edc90d81a330aa70fd4537b7764951fd4fbfe640fe06bc178847492b7b5"
+  }
+}
