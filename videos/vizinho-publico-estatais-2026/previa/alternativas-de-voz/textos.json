@@ -1,0 +1,17 @@
+[
+  {
+    "id": "A",
+    "text": "Mas será que privatizar resolveria?",
+    "intent": "investigativa e natural"
+  },
+  {
+    "id": "B",
+    "text": "Mas a privatização resolve mesmo esse problema?",
+    "intent": "ênfase em “resolve mesmo”"
+  },
+  {
+    "id": "C",
+    "text": "Privatizar seria mesmo a solução?",
+    "intent": "pergunta direta, breve"
+  }
+]
