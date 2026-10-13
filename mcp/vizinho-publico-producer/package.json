@@ -1,0 +1,16 @@
+{
+  "name": "@davi-nr/vizinho-publico-producer-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP tools for preparing Vizinho Público documentary projects and Fish Audio narration.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node test/smoke.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^3.25.76"
+  }
+}
