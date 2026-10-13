@@ -1,0 +1,223 @@
+1
+00:00:00,030 --> 00:00:01,566
+Você recebe seu salário.
+
+2
+00:00:01,976 --> 00:00:03,224
+Vai ao supermercado.
+
+3
+00:00:03,634 --> 00:00:05,039
+Abastece o carro.
+
+4
+00:00:05,449 --> 00:00:06,802
+Paga a conta de luz.
+
+5
+00:00:07,362 --> 00:00:08,949
+E sabe o que tudo isso tem em comum?
+
+6
+00:00:09,509 --> 00:00:10,523
+Impostos!
+
+7
+00:00:11,283 --> 00:00:12,531
+Mas espera aí...
+
+8
+00:00:13,041 --> 00:00:17,633
+Se a gente já paga tantos tributos no dia a dia, por que precisamos pagar tudo isso?
+
+9
+00:00:18,193 --> 00:00:19,624
+E para onde vai esse dinheiro?
+
+10
+00:00:22,080 --> 00:00:24,200
+Imposto é um tipo de tributo.
+
+11
+00:00:24,300 --> 00:00:25,820
+Taxas e contribuições são outras.
+
+12
+00:00:25,920 --> 00:00:28,200
+E nem todo salário paga imposto de renda.
+
+13
+00:00:28,495 --> 00:00:33,095
+Tributo é o nome geral. Imposto não corresponde a um serviço individual.
+
+14
+00:00:33,195 --> 00:00:37,945
+Taxas podem estar ligadas a fiscalizações ou a serviços específicos e divisíveis.
+
+15
+00:00:38,025 --> 00:00:41,165
+Contribuições têm finalidades previstas na Constituição, como a previdência.
+
+16
+00:00:41,265 --> 00:00:45,045
+Esses recursos financiam o Estado sem etiqueta automática para cada escola.
+
+17
+00:00:45,468 --> 00:00:48,318
+Renda, consumo e patrimônio são bases distintas.
+
+18
+00:00:48,418 --> 00:00:52,318
+Imposto de renda, compras, IPTU e IPVA são exemplos.
+
+19
+00:00:52,418 --> 00:00:55,218
+Impostos diretos incidem sobre renda ou bens.
+
+20
+00:00:55,318 --> 00:00:57,318
+Tributos sobre consumo podem aparecer no preço.
+
+21
+00:00:57,418 --> 00:01:00,568
+As regras variam. Nem todas as pessoas pagam imposto de renda.
+
+22
+00:01:01,165 --> 00:01:04,235
+União, estados e municípios têm competências para arrecadar.
+
+23
+00:01:04,335 --> 00:01:06,685
+Também há transferências previstas em lei.
+
+24
+00:01:06,785 --> 00:01:10,935
+Então, o dinheiro não vai todo para Brasília, nem as cidades dependem apenas da arrecadação.
+
+25
+00:01:11,237 --> 00:01:15,637
+A Receita estimou a carga tributária bruta de dois mil e vinte e quatro
+
+26
+00:01:15,737 --> 00:01:18,667
+em trinta e dois vírgula vinte por cento do produto interno bruto.
+
+27
+00:01:18,787 --> 00:01:22,667
+A conta soma a arrecadação dos três níveis de governo e compara com a economia.
+
+28
+00:01:22,767 --> 00:01:25,507
+Não é alíquota familiar nem mede o serviço recebido.
+
+29
+00:01:25,968 --> 00:01:28,708
+No total de despesas primárias pagas pelo Governo Central em 2025,
+
+30
+00:01:28,808 --> 00:01:31,308
+incluindo restos a pagar pagos:
+
+31
+00:01:31,408 --> 00:01:34,748
+saúde somou cerca de duzentos e trinta e oito bilhões;
+
+32
+00:01:34,848 --> 00:01:37,208
+educação, cento e sessenta e nove bilhões;
+
+33
+00:01:37,308 --> 00:01:41,068
+previdência, um trilhão e cem bilhões.
+
+34
+00:01:41,168 --> 00:01:43,508
+É um recorte federal, não todo o gasto público.
+
+35
+00:01:43,929 --> 00:01:47,029
+O demonstrativo separa despesas primárias de financeiras.
+
+36
+00:01:47,129 --> 00:01:48,659
+Juros são o custo da dívida.
+
+37
+00:01:48,759 --> 00:01:50,499
+Amortização paga o principal.
+
+38
+00:01:50,599 --> 00:01:53,099
+Refinanciamento substitui uma dívida por outra.
+
+39
+00:01:53,199 --> 00:01:56,499
+Não some tudo como se fosse verba livre para novos serviços.
+
+40
+00:01:56,827 --> 00:01:59,977
+Arrecadar não garante atendimento de qualidade.
+
+41
+00:02:00,077 --> 00:02:04,427
+Planejamento, compras, equipes, manutenção, execução e fiscalização influenciam o que chega às pessoas.
+
+42
+00:02:04,527 --> 00:02:09,627
+As fotos mostram equipamentos públicos reais, mas não medem, sozinhas, a qualidade dos serviços no país.
+
+43
+00:02:09,960 --> 00:02:15,160
+A Receita Federal relaciona a dependência brasileira de tributos indiretos a um perfil mais regressivo.
+
+44
+00:02:15,270 --> 00:02:19,740
+O consumo tende a pesar proporcionalmente mais para quem tem menos renda disponível.
+
+45
+00:02:19,850 --> 00:02:23,990
+Em dois mil e vinte e seis, IBS e CBS estão em transição gradual.
+
+46
+00:02:24,090 --> 00:02:27,110
+O novo modelo ainda não substituiu completamente o anterior.
+
+47
+00:02:27,481 --> 00:02:28,511
+Qualquer pessoa pode acompanhar.
+
+48
+00:02:28,591 --> 00:02:31,431
+No Portal da Transparência da União, filtre despesas por órgão e período,
+
+49
+00:02:31,511 --> 00:02:34,911
+consulte contratos e compare empenhado e pago.
+
+50
+00:02:34,991 --> 00:02:36,381
+Consulte também os portais locais.
+
+51
+00:02:36,461 --> 00:02:40,881
+Pela Lei de Acesso, qualquer pessoa pode solicitar informações.
+
+52
+00:02:40,961 --> 00:02:44,527
+Fala.BR na União e canais próprios nos estados e municípios.
+
+53
+00:02:44,767 --> 00:02:48,617
+Impostos financiam serviços que usamos e outros que beneficiam toda a sociedade.
+
+54
+00:02:48,717 --> 00:02:52,267
+Mas pagar também nos dá motivo para perguntar como o dinheiro é usado:
+
+55
+00:02:52,367 --> 00:02:55,417
+o que chega, quem paga mais e como cada real é administrado.
+
+56
+00:02:55,517 --> 00:02:57,608
+Siga arroba Vizinho Público.

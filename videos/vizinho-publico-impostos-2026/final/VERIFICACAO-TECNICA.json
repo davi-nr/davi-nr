@@ -1,0 +1,33 @@
+{
+  "sha256": "5ce2403d1cc89ee734de0fc489f361a3b0dbb69adf6413fcf2b086438315e9c3",
+  "bytes": 24611902,
+  "duration_s": 179.366667,
+  "atoms": [
+    [
+      "ftyp",
+      0,
+      32
+    ],
+    [
+      "moov",
+      32,
+      192495
+    ],
+    [
+      "free",
+      192527,
+      8
+    ],
+    [
+      "mdat",
+      192535,
+      24419367
+    ]
+  ],
+  "within_180s": true,
+  "faststart": true,
+  "full_decode_ok": true,
+  "decode_errors": "",
+  "audio_meter_ok": true,
+  "sampled_frames": 31
+}

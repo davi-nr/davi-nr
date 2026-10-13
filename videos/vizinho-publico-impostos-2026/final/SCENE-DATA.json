@@ -1,0 +1,141 @@
+[
+  {
+    "scene": 1,
+    "title": "O caminho do tributo",
+    "display_text": [
+      "SALÁRIO",
+      "SUPERMERCADO",
+      "ABASTECIMENTO",
+      "CONTA DE LUZ",
+      "IMPOSTOS",
+      "POR QUE PAGAMOS IMPOSTOS?"
+    ],
+    "narration_text": "Você recebe seu salário. Vai ao supermercado. Abastece o carro. Paga a conta de luz. E sabe o que tudo isso tem em comum? Impostos! Mas espera aí... Se a gente já paga tantos tributos no dia a dia, por que precisamos pagar tudo isso? E para onde vai esse dinheiro?",
+    "visual_notes": "Abertura conversacional v6: clipe HyperFrames fiel com ilustrações editoriais 2D conectadas de salário no celular, supermercado, abastecimento, conta de luz e convergência para “IMPOSTOS”."
+  },
+  {
+    "scene": 2,
+    "title": "Acompanhe o caminho",
+    "display_text": [
+      "IMPOSTO É UM TIPO DE TRIBUTO",
+      "TAXAS E CONTRIBUIÇÕES SÃO OUTRAS",
+      "NEM TODO SALÁRIO PAGA IMPOSTO DE RENDA"
+    ],
+    "narration_text": "Imposto é um tipo de tributo. Taxas e contribuições são outras. E nem todo salário paga imposto de renda.",
+    "visual_notes": "Ponte concisa: diferencia imposto, taxa e contribuição e corrige a generalização sobre imposto de renda no salário antes de acompanhar o orçamento público."
+  },
+  {
+    "scene": 3,
+    "title": "Imposto, taxa e contribuição",
+    "display_text": [
+      "TRIBUTO É O NOME GERAL",
+      "IMPOSTO · TAXA · CONTRIBUIÇÃO",
+      "SEM ETIQUETA AUTOMÁTICA"
+    ],
+    "narration_text": "Tributo é o nome geral. Imposto não corresponde a um serviço individual. Taxas podem estar ligadas a fiscalizações ou a serviços específicos e divisíveis; contribuições têm finalidades previstas na Constituição, como a previdência. Esses recursos financiam o Estado, sem etiqueta automática para cada escola.",
+    "visual_notes": "Mostrar imposto sem contraprestação individual; taxa conectada visualmente a fiscalização/serviço específico e divisível; contribuição vinculada a finalidade constitucional como previdência. Fluxo agregado sem etiqueta de imposto para escola específica."
+  },
+  {
+    "scene": 4,
+    "title": "Renda, consumo e patrimônio",
+    "display_text": [
+      "RENDA · CONSUMO · PATRIMÔNIO",
+      "IR · COMPRAS · IPTU · IPVA",
+      "REGRAS DIFERENTES"
+    ],
+    "narration_text": "Renda, consumo e patrimônio são bases distintas: imposto de renda, compras, IPTU e IPVA são exemplos. Impostos diretos incidem sobre renda ou bens; tributos sobre consumo podem aparecer no preço. As regras variam: nem todos pagam imposto de renda.",
+    "visual_notes": "Contracheque, mercado e bens em sequência; alternar incidência direta e indireta; nada sugere alíquota uniforme."
+  },
+  {
+    "scene": 5,
+    "title": "Quem arrecada e transfere",
+    "display_text": [
+      "UNIÃO · ESTADOS · MUNICÍPIOS",
+      "RECEITAS PRÓPRIAS + TRANSFERÊNCIAS",
+      "A CONSTITUIÇÃO DISTRIBUI COMPETÊNCIAS"
+    ],
+    "narration_text": "União, estados e municípios têm competências para arrecadar. Também há transferências previstas em lei. Então, o dinheiro não vai todo para Brasília, nem as cidades dependem apenas da arrecadação.",
+    "visual_notes": "Mapa Brasil e três níveis de governo; fluxos animados de receita própria e transferências, sem gráfico percentual."
+  },
+  {
+    "scene": 6,
+    "title": "A arrecadação em contexto",
+    "display_text": [
+      "RECEITA FEDERAL · 2024",
+      "32,20% DO PRODUTO INTERNO BRUTO",
+      "NÃO É ALÍQUOTA FAMILIAR"
+    ],
+    "narration_text": "A Receita estimou a carga tributária bruta de dois mil e vinte e quatro em trinta e dois vírgula vinte por cento do produto interno bruto. A conta soma a arrecadação dos três níveis de governo e compara com a economia; não é alíquota familiar nem mede o serviço recebido.",
+    "visual_notes": "Contador e escala de PIB versus receita; label dado nacional consolidado e metodologia RFB 2024."
+  },
+  {
+    "scene": 7,
+    "title": "Onde o Governo Central paga",
+    "display_text": [
+      "UNIÃO · DESPESAS PRIMÁRIAS PAGAS · 2025",
+      "SAÚDE R$ 238 BI",
+      "EDUCAÇÃO R$ 169 BI",
+      "PREVIDÊNCIA R$ 1,100 TRI",
+      "EXEMPLOS DE UM RECORTE, NÃO TODO O GASTO"
+    ],
+    "narration_text": "No total de despesas primárias pagas pelo Governo Central em dois mil e vinte e cinco, incluindo restos a pagar pagos: saúde somou cerca de duzentos e trinta e oito bilhões; educação, cento e sessenta e nove bilhões; previdência, um trilhão e cem bilhões. É um recorte federal, não todo o gasto público.",
+    "visual_notes": "Barras comparáveis da mesma planilha/universo (primárias pagas + RAP pagos), R$ correntes 2025. Mostrar valores e scope. Não somar como exaustivo nem aproximar em gráfico de pizza."
+  },
+  {
+    "scene": 8,
+    "title": "A dívida tem naturezas diferentes",
+    "display_text": [
+      "JUROS = CUSTO DA DÍVIDA",
+      "AMORTIZAÇÃO = PAGAMENTO DO PRINCIPAL",
+      "REFINANCIAR = SUBSTITUIR A DÍVIDA",
+      "NÃO É VERBA LIVRE"
+    ],
+    "narration_text": "O demonstrativo separa despesas primárias de financeiras. Juros são o custo da dívida; amortização paga o principal; refinanciamento substitui uma dívida por outra. Não some tudo como se fosse verba livre para novos serviços.",
+    "visual_notes": "Três trilhas animadas: custo de juros, pagamento do principal, substituição de dívida vencida por outra. Fonte Tesouro; sem somar a valores primários."
+  },
+  {
+    "scene": 9,
+    "title": "Arrecadar não garante qualidade",
+    "display_text": [
+      "PLANEJAMENTO · EXECUÇÃO",
+      "EQUIPE · COMPRAS · MANUTENÇÃO",
+      "FISCALIZAÇÃO"
+    ],
+    "narration_text": "Arrecadar não garante atendimento de qualidade. Planejamento, compras, equipes, manutenção, execução e fiscalização influenciam o que chega às pessoas. As fotos mostram equipamentos públicos reais, mas não medem, sozinhas, a qualidade dos serviços no país.",
+    "visual_notes": "Fotografias documentais de escola municipal (Sorriso, 2017) e hospital municipal do SUS (Campinas, 2016), com créditos/data. Rótulo de exemplo específico, sem inferência de qualidade."
+  },
+  {
+    "scene": 10,
+    "title": "Quem sente mais o peso",
+    "display_text": [
+      "TRIBUTAÇÃO INDIRETA",
+      "PESO PROPORCIONAL PODE SER MAIOR",
+      "IBS + CBS · TRANSIÇÃO EM CURSO"
+    ],
+    "narration_text": "A Receita Federal relaciona a dependência brasileira de tributos indiretos a um perfil mais regressivo. O consumo tende a pesar proporcionalmente mais para quem tem menos renda disponível. Em dois mil e vinte e seis, IBS e CBS estão em transição gradual; o novo modelo ainda não substituiu completamente o anterior.",
+    "visual_notes": "Duas cestas ilustrativas sem valores; linha temporal da transição; ressalvar tendência e fonte RFB, não afirmar taxa individual."
+  },
+  {
+    "scene": 11,
+    "title": "Como fiscalizar",
+    "display_text": [
+      "DESPESAS · CONTRATOS · PAGAMENTOS",
+      "PORTAL FEDERAL + PORTAIS LOCAIS",
+      "LEI DE ACESSO À INFORMAÇÃO"
+    ],
+    "narration_text": "Qualquer pessoa pode acompanhar. No Portal da Transparência da União, filtre despesas por órgão e período, consulte contratos e compare empenhado e pago. Consulte também os portais locais. Pela Lei de Acesso, qualquer pessoa pode solicitar informações: Fala.BR na União e canais próprios nos estados e municípios.",
+    "visual_notes": "Navegação editorial própria (não imitar página oficial), filtros por órgão/período, distinção empenhado e pago, abrir solicitação LAI."
+  },
+  {
+    "scene": 12,
+    "title": "O que perguntar",
+    "display_text": [
+      "QUANTO ARRECADA?",
+      "QUEM PAGA MAIS?",
+      "O QUE CHEGA À POPULAÇÃO?",
+      "SIGA @VIZINHOPUBLICO"
+    ],
+    "narration_text": "Impostos financiam serviços que usamos e outros que beneficiam toda a sociedade. Mas pagar também nos dá motivo para perguntar como o dinheiro é usado: o que chega, quem paga mais e como cada real é administrado. Siga arroba Vizinho Público.",
+    "visual_notes": "Conclusão completa, serviço visual/fluxo de cidade, checklist de perguntas e assinatura animada; sustentar tempo de leitura."
+  }
+]
