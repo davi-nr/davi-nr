@@ -1,0 +1,16 @@
+{
+  "file": "/workspace/vizinho-publico-impostos-2026/revision-opening-conversacional-v7-2026-10-13/project/deliverables/preview-opening-conversacional-v7-A.mp4",
+  "sha256": "56cacfc80ef0b1563cb5c2e11bb6d679f08fdfbc53b529836a4559915c834467",
+  "bytes": 2672409,
+  "duration_seconds": 22.016,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "decode_exit": 0,
+  "decode_errors": "",
+  "listening_performed": false,
+  "editorial_approval": false
+}
