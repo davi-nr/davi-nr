@@ -1,6 +1,6 @@
 # Storyboard — abertura conversacional v3
 
-Prévia isolada de 22 segundos, 1080×1920 a 30 fps. Os tempos das tomadas vêm de `audio-timing-v2.json`; as legendas estão em `captions-A-v2.srt`.
+Prévia isolada de 22 segundos, 1080×1920 a 30 fps. Os tempos das tomadas vêm de `audio-timing-A.json`; as legendas estão em `legendas-A.srt`.
 
 | Tempo | Narração | Composição e movimento |
 |---|---|---|

@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "requested_model_alias": "s2.1-pro-free",
+  "model_backend_attestation": "not independently provided",
+  "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+  "temperature": 0.85,
+  "top_p": 0.85,
+  "speed": 1.0,
+  "normalize": false,
+  "shared_takes": [
+    {
+      "name": "v2-action-01",
+      "path": "assets/audio/v2-action-01.mp3",
+      "text": "Você recebe seu salário.",
+      "input_sha256": "b61ef4f300e3a82fee3d2c4c9860130701f6dc2e114d82404eb2fd16f4186d47",
+      "bytes": 26330,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "a8ed718828ad2550367db87d2abcd013fc3e40e547a284a5f61452141a7b0f30"
+    },
+    {
+      "name": "v2-action-02",
+      "path": "assets/audio/v2-action-02.mp3",
+      "text": "Vai ao supermercado.",
+      "input_sha256": "ee31786a1163044101e75366aa1c48cfa134633b2d00abd057ea19d89f160098",
+      "bytes": 21732,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "d4ed2c61aac6f59446b80dc81df03c5e1f2cd34efcdc6b8ffe2969b1868c85a7"
+    },
+    {
+      "name": "v2-action-03",
+      "path": "assets/audio/v2-action-03.mp3",
+      "text": "Abastece o carro.",
+      "input_sha256": "9f6cb7c4a8aea262ff489c9c6676f3163e72172fd990ae72db2cfa795c2bd629",
+      "bytes": 24240,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "068aa3154cd4a4c15fd644bbe518a3f933862e575129236512521c52e0af9db8"
+    },
+    {
+      "name": "v2-action-04",
+      "path": "assets/audio/v2-action-04.mp3",
+      "text": "Paga a conta de luz.",
+      "input_sha256": "a93780388f0a3cb7f5263755ed40293ab45157477564f8bea364b171cb7c4c67",
+      "bytes": 23404,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "99200252cf6a5a82dece0ba429d501eb9340119e2e95190fd0bfd7f5072036e1"
+    },
+    {
+      "name": "v2-common-question",
+      "path": "assets/audio/v2-common-question.mp3",
+      "text": "E sabe o que tudo isso tem em comum?",
+      "input_sha256": "645feb9827104b60d3ee3becdab00db010b947ea4845edeb8e7e25666a9fd9e1",
+      "bytes": 27166,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "834e3a0278f4982c4192c4d9e15430672f4463fb47c39f60fb8041c2364269e6"
+    },
+    {
+      "name": "v2-emphasis",
+      "path": "assets/audio/v2-emphasis.mp3",
+      "text": "Impostos!",
+      "input_sha256": "8e59bfe6dbc5062f982607fdcf03e52e5fb1e74c7ee7b433639863c023d557ac",
+      "bytes": 17971,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "af538f292a9aee15031b82ce1338c14daa87a675dedbd57f92b066b4f3c1f883"
+    },
+    {
+      "name": "v2-rhythm-change",
+      "path": "assets/audio/v2-rhythm-change.mp3",
+      "text": "Mas espera aí...",
+      "input_sha256": "80258fba18720429f8b709f751cb68c82283d5e62ef2fe15129a8fe190513575",
+      "bytes": 21732,
+      "model_requested_accepted_alias": "s2.1-pro-free",
+      "model_backend_attestation": "not independently provided",
+      "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+      "temperature": 0.85,
+      "top_p": 0.85,
+      "speed": 1,
+      "normalize": false,
+      "file_sha256": "f76bc05c9b3c10585bc51c4c8ecabb44e3203ec93baa382f9e66c299aa840ba6"
+    }
+  ],
+  "options": {
+    "A": {
+      "clip_order": [
+        "v2-action-01",
+        "v2-action-02",
+        "v2-action-03",
+        "v2-action-04",
+        "v2-common-question",
+        "v2-emphasis",
+        "v2-rhythm-change",
+        "v2-question-A1",
+        "v2-question-A2"
+      ],
+      "takes": [
+        {
+          "name": "v2-question-A1",
+          "path": "assets/audio/v2-question-A1.mp3",
+          "text": "Se a gente já paga tantos tributos no dia a dia, por que precisamos pagar tudo isso?",
+          "input_sha256": "de3e36456f498a8993975761e612905b425e458ebc938f4a85e163ae95a93a94",
+          "bytes": 75231,
+          "model_requested_accepted_alias": "s2.1-pro-free",
+          "model_backend_attestation": "not independently provided",
+          "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+          "temperature": 0.85,
+          "top_p": 0.85,
+          "speed": 1,
+          "normalize": false,
+          "file_sha256": "fa23df9036b95d2a45c9d780ae12a557eaf27af2b3d8853112b51c0a056298c5"
+        },
+        {
+          "name": "v2-question-A2",
+          "path": "assets/audio/v2-question-A2.mp3",
+          "text": "E para onde vai esse dinheiro?",
+          "input_sha256": "33ea4c5fe6dc6197c6ce8bafd13648eac10af46b1a9db4b99bf8e2548ce1cdcc",
+          "bytes": 24658,
+          "model_requested_accepted_alias": "s2.1-pro-free",
+          "model_backend_attestation": "not independently provided",
+          "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+          "temperature": 0.85,
+          "top_p": 0.85,
+          "speed": 1,
+          "normalize": false,
+          "file_sha256": "ec2a803bf4a02dd73512cc18f1be3f40c18bd623ffadf8c4a36a4bd130a7a756"
+        }
+      ],
+      "mix": {
+        "wav": {
+          "path": "assets/audio/preview-mix-normalized-A.wav",
+          "sha256": "d1ee12b11b7ac810c245c90e350a30a8433439f16014aa22c206708a08a8a239",
+          "bytes": 6336102
+        },
+        "mp3": {
+          "path": "assets/audio/preview-mix-normalized-A.mp3",
+          "sha256": "d9bee14450d08c8d76334b0df845439aef208c1bb7f85f914099297b417e20d1",
+          "bytes": 529388
+        }
+      }
+    },
+    "B": {
+      "clip_order": [
+        "v2-action-01",
+        "v2-action-02",
+        "v2-action-03",
+        "v2-action-04",
+        "v2-common-question",
+        "v2-emphasis",
+        "v2-rhythm-change",
+        "v3-question-alt-B1",
+        "v2-question-alt-B2"
+      ],
+      "takes": [
+        {
+          "name": "v3-question-alt-B1",
+          "path": "assets/audio/v3-question-alt-B1.mp3",
+          "text": "Se a gente paga tributos em tantos momentos, por que precisamos deles?",
+          "input_sha256": "cda3bdea21971191089fcaf6bda05790e2876e02240005cda932bd77a735b975",
+          "file_sha256": "38f3758f4a259807bb8b0364dbb75bf7039173a47d782775705564dd84acee72",
+          "bytes": 69380,
+          "model_requested_accepted_alias": "s2.1-pro-free",
+          "model_backend_attestation": "not independently provided",
+          "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+          "temperature": 0.85,
+          "top_p": 0.85,
+          "speed": 1,
+          "normalize": false
+        },
+        {
+          "name": "v2-question-alt-B2",
+          "path": "assets/audio/v2-question-alt-B2.mp3",
+          "text": "E para onde vai esse dinheiro?",
+          "input_sha256": "33ea4c5fe6dc6197c6ce8bafd13648eac10af46b1a9db4b99bf8e2548ce1cdcc",
+          "bytes": 24658,
+          "model_requested_accepted_alias": "s2.1-pro-free",
+          "model_backend_attestation": "not independently provided",
+          "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+          "temperature": 0.85,
+          "top_p": 0.85,
+          "speed": 1,
+          "normalize": false,
+          "file_sha256": "464166f790adbd1ab519e37e56a704e7c8243931013ff8b6a0cf37961c2d0cfe"
+        }
+      ],
+      "mix": {
+        "wav": {
+          "path": "assets/audio/preview-mix-normalized-B.wav",
+          "sha256": "76debfd07adaad0059fe0823b3227f2afe810fbf4cd1075ea9d943489c815234",
+          "bytes": 6336102
+        },
+        "mp3": {
+          "path": "assets/audio/preview-mix-normalized-B.mp3",
+          "sha256": "1455d9f7509e7cbd4b838c172d0753c3bf443f0cb09785535800fab6dc58d17c",
+          "bytes": 529388
+        }
+      }
+    },
+    "C": {
+      "clip_order": [
+        "v2-action-01",
+        "v2-action-02",
+        "v2-action-03",
+        "v2-action-04",
+        "v2-common-question",
+        "v2-emphasis",
+        "v2-rhythm-change",
+        "v3-question-alt-C1",
+        "v2-question-alt-C2"
+      ],
+      "takes": [
+        {
+          "name": "v3-question-alt-C1",
+          "path": "assets/audio/v3-question-alt-C1.mp3",
+          "text": "Por que precisamos pagar tributos no dia a dia?",
+          "input_sha256": "245de9b9fa4e008a7081c570071175c5558b3078004c9c5acf99e82315a62227",
+          "file_sha256": "a1043cb9fcd03e61bb541e95882c4ba0bdf43a0166ceb4055dbfab83ab43e5a2",
+          "bytes": 40541,
+          "model_requested_accepted_alias": "s2.1-pro-free",
+          "model_backend_attestation": "not independently provided",
+          "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+          "temperature": 0.85,
+          "top_p": 0.85,
+          "speed": 1,
+          "normalize": false
+        },
+        {
+          "name": "v2-question-alt-C2",
+          "path": "assets/audio/v2-question-alt-C2.mp3",
+          "text": "E para onde vai esse dinheiro?",
+          "input_sha256": "33ea4c5fe6dc6197c6ce8bafd13648eac10af46b1a9db4b99bf8e2548ce1cdcc",
+          "bytes": 24658,
+          "model_requested_accepted_alias": "s2.1-pro-free",
+          "model_backend_attestation": "not independently provided",
+          "reference_id": "ceaf7f569bef42c7bd322d88e3a356b7",
+          "temperature": 0.85,
+          "top_p": 0.85,
+          "speed": 1,
+          "normalize": false,
+          "file_sha256": "765b9121b0b9124a9445a83ce8755b7bcaa04754c2d3d7a12885d2a3f21964ed"
+        }
+      ],
+      "mix": {
+        "wav": {
+          "path": "assets/audio/preview-mix-normalized-C.wav",
+          "sha256": "85764df977cf5945a6284c8c5dcae970d2c29e76003f541c7ee1ed92bcdb29a1",
+          "bytes": 6336102
+        },
+        "mp3": {
+          "path": "assets/audio/preview-mix-normalized-C.mp3",
+          "sha256": "2c9b4e278a8632e5399d58033bd6ef79aca5ec65d00a45cbcbcffd3d80286832",
+          "bytes": 529388
+        }
+      }
+    }
+  },
+  "preview_duration_seconds": 22.0,
+  "post_mix_normalization": {
+    "method": "two-pass FFmpeg loudnorm",
+    "target_integrated_loudness_lufs": -16,
+    "target_true_peak_dbtp": -1,
+    "original_pre_normalized_mixes_preserved": true,
+    "actual_pcm_measurements": {
+      "A": {
+        "integrated_loudness_lufs": -16.19,
+        "true_peak_dbtp": -1.45
+      },
+      "B": {
+        "integrated_loudness_lufs": -16.0,
+        "true_peak_dbtp": -1.52
+      },
+      "C": {
+        "integrated_loudness_lufs": -16.16,
+        "true_peak_dbtp": -1.22
+      }
+    }
+  }
+}

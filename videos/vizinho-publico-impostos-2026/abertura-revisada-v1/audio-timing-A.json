@@ -1,0 +1,40 @@
+{
+  "variant": "A",
+  "clip_order": [
+    "v2-action-01",
+    "v2-action-02",
+    "v2-action-03",
+    "v2-action-04",
+    "v2-common-question",
+    "v2-emphasis",
+    "v2-rhythm-change",
+    "v2-question-A1",
+    "v2-question-A2"
+  ],
+  "durations_seconds": [
+    1.645625,
+    1.35825,
+    1.515,
+    1.46275,
+    1.697875,
+    1.123188,
+    1.35825,
+    4.701938,
+    1.541125
+  ],
+  "starts_seconds": [
+    0.0,
+    1.945625,
+    3.6038749999999995,
+    5.418874999999999,
+    7.331624999999999,
+    9.479499999999998,
+    11.252688,
+    13.010938,
+    18.162876
+  ],
+  "speech_end_seconds": 19.704,
+  "preview_duration_seconds": 22.0,
+  "voice_wav": "assets/audio/preview-mix-v2-A.wav",
+  "voice_mp3": "assets/audio/preview-mix-v2-A.mp3"
+}

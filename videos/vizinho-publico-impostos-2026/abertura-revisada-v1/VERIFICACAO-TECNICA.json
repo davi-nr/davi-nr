@@ -33,6 +33,7 @@
   "within_preview_20_24_seconds": true,
   "integrated_loudness_LUFS": -16.0,
   "true_peak_dBTP": -1.4,
-  "video_bitstream_sha256": "a23755291b74fef06be70a7c777899a566a9ae48aa1b02203888ef89d8feb55d",
-  "human_listening_performed": false
+  "human_listening_performed": false,
+  "video_packet_payload_sha256": "a23755291b74fef06be70a7c777899a566a9ae48aa1b02203888ef89d8feb55d",
+  "video_packet_hash_method": "ffmpeg -map 0:v:0 -c copy -f hash -hash sha256"
 }

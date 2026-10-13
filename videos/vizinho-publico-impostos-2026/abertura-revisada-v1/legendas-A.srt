@@ -1,0 +1,36 @@
+1
+00:00:00,030 --> 00:00:01,566
+Você recebe seu salário.
+
+2
+00:00:01,976 --> 00:00:03,224
+Vai ao supermercado.
+
+3
+00:00:03,634 --> 00:00:05,039
+Abastece o carro.
+
+4
+00:00:05,449 --> 00:00:06,802
+Paga a conta de luz.
+
+5
+00:00:07,362 --> 00:00:08,949
+E sabe o que tudo isso tem em comum?
+
+6
+00:00:09,509 --> 00:00:10,523
+Impostos!
+
+7
+00:00:11,283 --> 00:00:12,531
+Mas espera aí...
+
+8
+00:00:13,041 --> 00:00:17,633
+Se a gente já paga tantos tributos no dia a dia, por que precisamos pagar tudo isso?
+
+9
+00:00:18,193 --> 00:00:19,624
+E para onde vai esse dinheiro?
+
