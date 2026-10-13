@@ -14,3 +14,7 @@ A narração é uma tomada contínua da voz oficial Fish Audio, velocidade 1,0, 
 A inspeção de quadros, os níveis e a transcrição automática não equivalem a assistir ao movimento completo nem a ouvir a interpretação. Não houve avaliação por escuta humana neste ambiente, e a naturalidade/entonação permanecem sujeitas à avaliação editorial do usuário. Não há aprovação automática.
 
 O restante do episódio está sendo revisado em uma versão separada. Esta prévia não substitui o MP4 anterior.
+
+## Achado editorial adicional
+
+A inspeção do MP4 ainda identificou excesso de espaço vazio e tipografia central prolongada no trecho final de perguntas. Esta primeira candidata fica preservada para comparação; o HyperFrames está corrigindo esse trecho numa nova versão. A aprovação editorial não foi solicitada nem concedida.
