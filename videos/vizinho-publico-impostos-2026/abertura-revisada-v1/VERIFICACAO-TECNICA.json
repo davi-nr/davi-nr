@@ -1,0 +1,38 @@
+{
+  "sha256": "b3287572f54b32f56a370fe0258773bf10bf60e2526ec1351d19f26e6399c3af",
+  "bytes": 2306431,
+  "duration_s": 22.0,
+  "atoms": [
+    [
+      "ftyp",
+      0,
+      32
+    ],
+    [
+      "moov",
+      32,
+      25043
+    ],
+    [
+      "free",
+      25075,
+      8
+    ],
+    [
+      "mdat",
+      25083,
+      2281348
+    ]
+  ],
+  "within_180s": true,
+  "faststart": true,
+  "full_decode_ok": true,
+  "decode_errors": "",
+  "audio_meter_ok": true,
+  "sampled_frames": 6,
+  "within_preview_20_24_seconds": true,
+  "integrated_loudness_LUFS": -16.0,
+  "true_peak_dBTP": -1.4,
+  "video_bitstream_sha256": "a23755291b74fef06be70a7c777899a566a9ae48aa1b02203888ef89d8feb55d",
+  "human_listening_performed": false
+}
