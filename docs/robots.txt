@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://davi-nr.github.io/davi-nr/sitemap.xml
