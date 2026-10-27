@@ -1,8 +1,8 @@
-<p align="center"><img src="docs/assets/banner.svg?v=2" alt="Davi Costa — Desenvolvimento, Engenharia de IA e Segurança" width="100%"></p>
+<p align="center"><img src="docs/assets/banner.svg?v=3" alt="Davi Costa — Desenvolvimento, Engenharia de IA e Segurança" width="100%"></p>
 
 <p align="center"><a href="https://davi-nr.github.io/davi-nr/"><strong>Explorar meu portfólio</strong></a> &nbsp; / &nbsp; <a href="PROJECTS.md">Detalhes dos projetos</a> &nbsp; / &nbsp; <a href="01-controle-de-acesso-e-assinatura.md">Estudo de segurança</a></p>
 
-Sou **Davi Costa**, engenheiro de IA e desenvolvedor de software. Conduzo as decisões de arquitetura, programo as interfaces e o backend, integro os serviços e cuido da publicação.
+Sou **Davi Costa**, engenheiro de IA e desenvolvedor de software. Estou programando o **Ounce em Python**. Também desenvolvi sistemas web, APIs, um navegador de laboratório e e-commerces. Eu cuido do código, das integrações e do deploy.
 
 Nos projetos abaixo, usei **JavaScript, TypeScript, Python, Objective-C, SQL, HTML, CSS e Shell**. Trabalhei com aplicações web, um aplicativo nativo para macOS, agentes de IA e infraestrutura na AWS e no Cloudflare.
 

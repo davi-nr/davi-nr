@@ -1,4 +1,4 @@
-import { projects, modules, architectures } from './data.js?v=2';
+import { projects, modules, architectures } from './data.js?v=3';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
