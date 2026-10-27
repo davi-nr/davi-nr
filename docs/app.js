@@ -1,4 +1,4 @@
-import { projects, modules, architectures } from './data.js?v=3';
+import { projects, modules, architectures } from './data.js?v=4';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -22,7 +22,7 @@ function closeProject(){dialog.close();}
 function openProject(id, trigger){
   const p=projects.find(item=>item.id===id);if(!p)return;
   lastTrigger=trigger;
-  $('#dialog-content').innerHTML=`<div class="dialog-cover">${artwork(p)}</div><div class="dialog-body"><span class="dialog-kind">${escape(p.kind)}</span><h2 id="dialog-title">${escape(p.title)}</h2><span class="project-status">${escape(p.status)}</span><div class="tags">${p.stack.map(t=>`<span>${escape(t)}</span>`).join('')}</div><h3>O desafio</h3><p>${escape(p.challenge)}</p><h3>O que construí</h3><p>${escape(p.built)}</p><h3>Decisões de engenharia</h3><ul>${p.decisions.map(item=>`<li>${escape(item)}</li>`).join('')}</ul><p class="scope-note">${escape(p.scope)}</p>${p.url?`<a class="button dark" href="${escape(p.url)}" target="_blank" rel="noopener noreferrer">Abrir site do projeto <span aria-hidden="true">↗</span></a>`:''}</div>`;
+  $('#dialog-content').innerHTML=`<div class="dialog-cover">${artwork(p)}</div><div class="dialog-body"><span class="dialog-kind">${escape(p.kind)}</span><h2 id="dialog-title">${escape(p.title)}</h2><span class="project-status">${escape(p.status)}</span><div class="tags">${p.stack.map(t=>`<span>${escape(t)}</span>`).join('')}</div><h3>Implementação</h3><p>${escape(p.built)}</p><h3>No código</h3><ul>${p.decisions.map(item=>`<li>${escape(item)}</li>`).join('')}</ul><p class="scope-note">${escape(p.scope)}</p>${p.url?`<a class="button dark" href="${escape(p.url)}" target="_blank" rel="noopener noreferrer">Abrir site do projeto <span aria-hidden="true">↗</span></a>`:''}</div>`;
   dialog.showModal();document.body.classList.add('modal-open');$('#dialog-close').focus();
 }
 document.addEventListener('click',e=>{const button=e.target.closest('[data-project]');if(button)openProject(button.dataset.project,button);});

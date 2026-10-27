@@ -1,227 +1,135 @@
 # Projetos de Davi Costa
 
-[Portfólio interativo](https://davi-nr.github.io/davi-nr/) · [Perfil](README.md)
-
-Tecnologias e decisões dos projetos que desenvolvi. Da 32Enterprises, apresento o Business Desk na reformulação em andamento.
+[Site](https://davi-nr.github.io/davi-nr/) · [Perfil](README.md)
 
 ## 32Business Desk
 
-**Gestão de negócios** · Reformulação em desenvolvimento
+Clientes, agenda, produtos, estoque, vendas e caixa.
 
-Sistema de gestão com interface, API e banco de dados próprios.
+**Usei:** JavaScript, Python, Workers, D1, SQLite.
 
-**Tecnologias:** JavaScript, Python, Workers, D1, SQLite.
+Programei as telas em JavaScript e as rotas no Cloudflare Workers. O D1 guarda os dados de clientes, produtos e operações. A agenda valida os horários; as rotas conferem a sessão e a organização antes de ler ou alterar registros.
 
-### Desafio
+- Registros vinculados à organização e, quando necessário, à unidade.
+- Validação de IDs, datas, valores e permissões nas rotas.
+- Persistência SQL e migrações para alterações do banco.
 
-Reunir rotinas de segmentos diferentes em produtos claros, com dados persistentes e acesso controlado.
+As imagens são da reformulação em andamento. Os indicadores exibidos na captura são dados de demonstração, identificados na própria tela.
 
-### O que programei
-
-Desenvolvimento de interfaces responsivas, APIs, gestão de clientes, agenda, catálogo, estoque, vendas e financeiro. O Business Desk organiza os módulos conforme o segmento e a rotina da empresa.
-
-### Decisões
-
-- APIs autenticadas e dados vinculados à organização.
-- Cloudflare Workers e D1 na camada hospedada; Python e SQLite em aplicações locais.
-- Módulos por segmento, separados da apresentação pública.
-
-**Estágio da implementação:** A galeria mostra a reformulação local em andamento. Módulos e integrações têm estágios próprios; a presença de uma tela não significa que toda integração está habilitada em produção.
-
-[Site do projeto](https://32enterprises.com/32business)
+[Site](https://32enterprises.com/32business)
 
 ## Ounce AI
 
-**Engenharia de IA / ferramentas** · Agente funcional de desenvolvimento
+Agente em Python com histórico, streaming e execução de ferramentas.
 
-Um agente no terminal que conversa, usa ferramentas e trabalha com o contexto do projeto.
+**Usei:** Python, AWS EC2, Streaming, Tool calling.
 
-**Tecnologias:** Python, AWS EC2, Streaming, Tool calling.
+Escrevi o cliente de terminal e o runtime em Python. O agente usa list_files, read_file, write_file, run_command e security_check. As sessões ficam separadas por projeto; as respostas chegam por streaming. A inferência roda na AWS e as ferramentas executam no Mac.
 
-### Desafio
+- O histórico preserva cada chamada de ferramenta junto do resultado.
+- Caminhos e links simbólicos são validados antes do acesso a arquivos.
+- Escritas e comandos pedem aprovação; os processos têm timeout.
 
-Conectar um modelo de linguagem a ferramentas úteis no computador, mantendo ações visíveis e aprovadas pelo usuário.
-
-### O que programei
-
-CLI em Python com streaming, histórico por sessão, orçamento de contexto, leitura e escrita de arquivos, execução de comandos e adaptadores de diagnóstico HTTP, DNS, TLS e Nmap. Integrei a inferência na AWS ao runtime local e ao retorno estruturado das ferramentas.
-
-### Decisões
-
-- Arquivos limitados ao workspace, com bloqueio de caminhos sensíveis.
-- Escritas e comandos apresentados para aprovação.
-- Resultados de ferramentas retornam ao modelo com limites de tamanho e execução.
-
-**Estágio da implementação:** Ounce reúne o runtime, as ferramentas e a integração de inferência que desenvolvi. A captura registra uma versão de desenvolvimento. Comandos aprovados executam com as permissões do usuário.
+O Ounce está em desenvolvimento. Comandos aprovados usam as permissões do usuário no sistema. A imagem é um registro de uma versão anterior do terminal.
 
 ## Chameleon
 
-**Aplicação nativa / laboratório** · Aplicativo macOS Intel
+Navegador macOS para inspecionar rede e testar uma entrada de vídeo.
 
-Navegador de diagnóstico com inspeção de requisições e uma fixture de vídeo para testes.
+**Usei:** Objective-C, AppKit, WebKit, JavaScript.
 
-**Tecnologias:** Objective-C, AppKit, WebKit, JavaScript.
+Fiz o aplicativo em Objective-C com AppKit e WebKit. O painel mostra requests, responses, console e eventos de WebSocket. Ele correlaciona chamadas, exporta JSON e permite usar um arquivo de vídeo como MediaStream de teste no host configurado.
 
-### Desafio
+- Máscaras para cookies, tokens e campos sensíveis nos registros.
+- Prévias JSON limitadas em tamanho e tempo de leitura.
+- Fixture baseada em canvas.captureStream no contexto da página.
 
-Observar requisições e testar fluxos de captura de vídeo em um aplicativo de laboratório próprio.
-
-### O que programei
-
-Aplicação nativa para macOS com WebKit, painel de requests/responses, correlação de Fetch e XHR, logs de console e WebSocket, exportação JSON e substituição da entrada de vídeo da página por um MediaStream de teste.
-
-### Decisões
-
-- Instrumentação limitada ao host configurado.
-- Máscaras para tokens, cookies e campos sensíveis nos registros.
-- Fixture explícita baseada em canvas.captureStream, sem driver de câmera no sistema.
-
-**Estágio da implementação:** Ferramenta de laboratório. A fixture substitui a entrada no contexto da página; não emula uma câmera física nem confirma decisões de biometria do servidor. Aplicativo assinado localmente, sem notarização.
+Aplicativo para macOS Intel, com assinatura local. A fixture não instala uma câmera no sistema nem altera a resposta de um serviço de biometria.
 
 ## Apuração.win
 
-**Dados públicos / infraestrutura** · Implementação web e infraestrutura
+Mapa eleitoral, API no Cloudflare e coletor Python na AWS.
 
-Mapa eleitoral com consultas por estado e município, apoiado por uma API e um coletor na AWS.
+**Usei:** JavaScript, Python, Workers, EC2, Durable Objects.
 
-**Tecnologias:** JavaScript, Python, Workers, EC2, Durable Objects.
+Programei a interface em JavaScript, a API em Workers e o coletor em Python. A fila fica em um Durable Object. O processo na AWS recebe os trabalhos e consulta os arquivos oficiais do TSE. O resultado volta para o cache que atende o site.
 
-### Desafio
+- EA14 sinaliza avanço por UF; EA20 traz os votos da região.
+- Consultas ao mesmo arquivo compartilham um trabalho na fila.
+- 429 respeita Retry-After; falhas preservam o último arquivo válido.
 
-Distribuir dados oficiais para muitos visitantes sem multiplicar as consultas à fonte a cada acesso.
+A frequência de atualização depende da publicação do TSE e do coletor ligado. O portfólio usa uma ilustração do mapa e não faz consultas eleitorais ao abrir.
 
-### O que programei
-
-Interface com mapa do Brasil, filtros e resultados oficiais. Uma API no Cloudflare coordena a fila global; um coletor Python na AWS São Paulo consulta o TSE e devolve os arquivos para distribuição por cache.
-
-### Decisões
-
-- Deduplicação de consultas e cache compartilhado.
-- EA14 sinaliza quais UFs precisam de uma nova leitura EA20.
-- Timeout, retentativas graduais, respeito a Retry-After e preservação do último dado válido.
-
-**Estágio da implementação:** A atualização acompanha a publicação dos arquivos oficiais. A cadência da fonte e o estado do coletor influenciam a disponibilidade; o portfólio não consulta resultados eleitorais ao abrir.
-
-[Site do projeto](https://apuracao.win)
+[Site](https://apuracao.win)
 
 ## Souza Joias
 
-**E-commerce / administração** · Loja e painel implementados
+Catálogo de joias com painel, estoque, sacola e orçamento por WhatsApp.
 
-Vitrine, catálogo persistente e painel para produtos, estoque e solicitações de orçamento.
+**Usei:** JavaScript, Node.js, SQLite, Cloudflare, D1.
 
-**Tecnologias:** JavaScript, Node.js, SQLite, Cloudflare, D1.
+Implementei cadastro e edição de produtos, imagens, estoque e visibilidade. A loja tem categorias, busca e sacola. O painel usa sessão autenticada. A versão local usa Node.js e SQLite; a hospedada usa Cloudflare e D1.
 
-### Desafio
+- Cookie de sessão HttpOnly e verificação de origem nas escritas.
+- Produtos ocultos ficam fora do catálogo público.
+- Consentimento separado para análise e cadastro promocional.
 
-Conectar uma vitrine de joias a uma operação de catálogo que o responsável consiga administrar.
+O site prepara um orçamento para o WhatsApp. Não processa o pagamento. A captura mostra imagens de produto marcadas como ilustrativas.
 
-### O que programei
-
-Loja responsiva com categorias, busca, sacola e encaminhamento de orçamento ao WhatsApp. Painel protegido para produtos, estoque, visibilidade, imagens e configurações. Implementações local em SQLite e hospedada em Cloudflare D1.
-
-### Decisões
-
-- Sessões com cookie HttpOnly e validação de origem.
-- Consentimento separado para cadastro promocional e análise.
-- Catálogo persistente e produtos identificados por referência.
-
-**Estágio da implementação:** O fluxo prepara um orçamento; pagamento e confirmação comercial ocorrem fora do site. A captura contém peças identificadas como imagens ilustrativas.
-
-[Site do projeto](https://souzzajoias.com.br)
+[Site](https://souzzajoias.com.br)
 
 ## Auréa Joias
 
-**E-commerce / catálogo** · Vitrine e administração implementadas
+Loja de joias com gestão de produtos, disponibilidade e preços.
 
-Uma loja com identidade própria e gestão de catálogo, disponibilidade e contato comercial.
+**Usei:** JavaScript, Node.js, SQLite, D1.
 
-**Tecnologias:** JavaScript, Node.js, SQLite, D1.
+Programei a vitrine, a sacola e o painel de produtos. O responsável pode editar preço, composição, imagem, estoque e visibilidade. A aplicação tem backend Node.js/SQLite local e Worker compatível com D1.
 
-### Desafio
-
-Criar uma experiência de catálogo consistente com uma identidade de joalheria e um painel simples de operar.
-
-### O que programei
-
-Vitrine, filtros, sacola e administração de produtos, preços, composição, estoque, imagens e visibilidade. Backend local com SQLite e Worker compatível com Cloudflare D1.
-
-### Decisões
-
-- Autenticação de administração com sessão protegida.
 - Validação de estoque e origem no servidor.
-- Configurações comerciais persistidas e separadas da interface.
+- Sessão administrativa em cookie protegido.
+- Configuração do contato comercial salva no banco.
 
-**Estágio da implementação:** Projeto em apresentação. Pix e cartão não estão integrados e a sacola não representa um pagamento confirmado.
+Pix e cartão não foram integrados. A sacola não confirma um pedido pago. A imagem do portfólio é uma ilustração da apresentação.
 
 ## DopZero
 
-**Produto digital / comunidade** · Aplicação em desenvolvimento
+Quests, personagens, contas e guildas em TypeScript e React.
 
-Desenvolvimento pessoal com quests, progresso, personagens e uma comunidade com controle de acesso.
+**Usei:** TypeScript, React, Vinext, Drizzle, D1, Three.js.
 
-**Tecnologias:** TypeScript, React, Vinext, Drizzle, D1, Three.js.
+Usei TypeScript, React e Vinext na aplicação, com Drizzle e D1 no servidor. Implementei contas, perfil, guildas, mensagens e permissões por associação. O progresso e o diário têm armazenamento local separado por conta.
 
-### Desafio
+- Sessão validada no servidor antes de acessar dados da conta.
+- Associação à guilda conferida nas operações da comunidade.
+- Canvas carregado em separado, com adaptação para movimento reduzido.
 
-Organizar progresso pessoal e recursos sociais com uma experiência móvel clara e identidade visual própria.
-
-### O que programei
-
-Interfaces para quests, diário, estudos, personagens e guildas. APIs para contas, perfil e comunidade, com persistência D1. Experimentos visuais com Three.js e adaptação para movimento reduzido.
-
-### Decisões
-
-- Autorização por conta e associação a guildas.
-- Sessões HttpOnly e tokens armazenados como hash.
-- Separação explícita entre progresso local e dados sincronizados.
-
-**Estágio da implementação:** A aplicação permanece em desenvolvimento. Recursos pessoais locais e sincronizados têm escopos diferentes; a presença de uma tela não indica disponibilidade comercial.
+Projeto em desenvolvimento. Perfil e comunidade usam o servidor; parte do progresso pessoal e do diário permanece local.
 
 ## Auditoria HTTP
 
-**Segurança / ferramenta CLI** · Ferramenta CLI de laboratório
+Script Python de análise HTTP com saída Markdown e JSON.
 
-Triagem HTTP em Python com relatórios em Markdown e JSON e referências CWE.
+**Usei:** Python, HTTP, TLS, JSON.
 
-**Tecnologias:** Python, HTTP, TLS, JSON.
+Fiz um scanner de uma URL com análise de cabeçalhos, cookies e formulário de senha. Ele limita leituras, controla redirecionamentos e gera relatórios Markdown e JSON. Os testes usam um servidor local.
 
-### Desafio
+- Certificado TLS validado.
+- Conteúdo sensível e valores de cookies não entram no relatório.
+- Referências CWE usadas para orientar a validação manual.
 
-Produzir observações de segurança reproduzíveis sem transformar a ausência de um controle em um achado confirmado.
+A ferramenta faz triagem HTTP. Não percorre o site inteiro nem confirma exploração.
 
-### O que programei
+## Vídeos com código
 
-Scanner de uma URL com análise de cookies e cabeçalhos, controle de redirecionamento, limites de leitura e relatórios sanitizados. Laboratório local com casos vulneráveis e corrigidos para validação.
+Composições em JavaScript e TypeScript com HyperFrames e Remotion.
 
-### Decisões
+**Usei:** JavaScript, TypeScript, HyperFrames, Remotion, SVG.
 
-- TLS validado e redirecionamento limitado à origem.
-- Cookies e conteúdo sensível excluídos dos relatórios.
-- Indicadores de triagem separados de vulnerabilidades confirmadas.
+Montei composições HTML e React para demonstrações, legendas e vídeos explicativos. O código controla os elementos e o tempo. Narração, imagens e composição ficam em arquivos separados.
 
-**Estágio da implementação:** O escopo é triagem HTTP, não uma auditoria completa. Não atribui CVE, CVSS ou aprovação de segurança automaticamente.
+- Composição editável e renderização local.
+- Narração sincronizada à timeline.
+- Prévias para conferir os cortes antes do render final.
 
-## Produção visual programável
-
-**Código / apresentação** · Composições e fluxos desenvolvidos
-
-Vídeos, demonstrações de produtos e materiais visuais com composição editável em código.
-
-**Tecnologias:** JavaScript, TypeScript, HyperFrames, Remotion, SVG.
-
-### Desafio
-
-Apresentar sistemas e explicar ideias com materiais visuais que possam ser revisados e renderizados novamente.
-
-### O que programei
-
-Composições HTML e React para vídeos, apresentações de produto, legendas e animações. Integrações de narração e preparação de materiais para revisão.
-
-### Decisões
-
-- Fontes editáveis e mídia separada da composição.
-- Roteiro, tempo e animação controlados por código.
-- Prévias e renderização local como parte do fluxo.
-
-**Estágio da implementação:** Os trabalhos incluem demonstrações e materiais editoriais. As ferramentas utilizadas pertencem aos respectivos projetos e fornecedores.
+Os arquivos editáveis e as mídias ficam separados para permitir novas versões.
