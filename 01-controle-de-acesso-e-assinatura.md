@@ -1,6 +1,6 @@
 # Controle de acesso e validação de assinatura em uma aplicação web
 
-**NORASTREABILITY TEAM · Setembro de 2026**  
+**Davi Costa · Setembro de 2026**  
 **Estudo de caso anonimizado · Análise de tráfego HTTP**
 
 Durante a análise de uma aplicação web, observamos respostas de API que retornavam credenciais de integração e campos internos de usuários. Também acompanhamos o provisionamento de uma conta de teste e o comportamento de uma barreira de assinatura.

@@ -1,11 +1,11 @@
-import { projects, modules, architectures } from './data.js';
+import { projects, modules, architectures } from './data.js?v=2';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const visuals = {
-  dopzero:'<div class="code-visual"><span class="code-muted">dopzero / caminho pessoal</span><strong>O próximo nível<br>é construído.</strong><span class="code-accent">quests · progresso · comunidade</span><span class="code-muted">React + TypeScript + D1</span></div>',
-  audit:'<div class="code-visual"><span class="code-muted">norastreability / audit</span><strong>Observar.<br>Validar. Documentar.</strong><span class="code-accent">HTTP → evidências → relatório</span></div>',
-  motion:'<div class="code-visual"><span class="code-muted">composition / timeline</span><strong>Design em<br>movimento.</strong><span class="code-accent">const frame = timeline.seek(time)</span></div>'
+  dopzero:'<div class="code-visual"><span class="code-muted">dopzero / caminho pessoal</span><strong>Quests, estudo<br>e progresso.</strong><span class="code-accent">quests · progresso · comunidade</span><span class="code-muted">React + TypeScript + D1</span></div>',
+  audit:'<div class="code-visual"><span class="code-muted">auditoria / http</span><strong>Triagem HTTP<br>em Python.</strong><span class="code-accent">HTTP → evidências → relatório</span></div>',
+  motion:'<div class="code-visual"><span class="code-muted">composition / timeline</span><strong>Vídeos e<br>apresentações.</strong><span class="code-accent">const frame = timeline.seek(time)</span></div>'
 };
 function artwork(project){
   if(project.image) return `<img src="${escape(project.image)}" alt="${escape(project.alt)}" width="1100" height="660" loading="lazy">`;
